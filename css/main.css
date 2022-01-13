@@ -1134,7 +1134,8 @@ h1.intro-header::before {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 501;
+  z-index: 999999999;
+  overflow: hidden;
 }
 
 
@@ -1531,7 +1532,7 @@ h1.intro-header::before {
 
 .home-social-list {
   position: absolute;
-  right: 42px;
+  right: 14px;
   top: 50%;
   margin: 0;
   padding: 0;
@@ -1542,6 +1543,7 @@ h1.intro-header::before {
   -webkit-transform: translateY(-55%);
   -ms-transform: translateY(-55%);
   transform: translateY(-55%);
+  z-index: 999;
 }
 
 .home-social-list::before {
@@ -1576,7 +1578,7 @@ h1.intro-header::before {
 .home-scrolldown {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -28px;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
